@@ -1,0 +1,36 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-prod.properties
+# Node
+node_modules/
+.next/
+out/
+dist/
+coverage/
+npm-debug.log*
+# Java / Maven
+**/target/
+**/build/
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Logs and local debug output
+*.log
+backend-error.txt
+latest-error.txt
+startup-log.txt
+startup.log
+
+# Local frontend environment
+frontend/.env.local
+
+# Local debug logs
+backend-error.txt
+latest-error.txt
+startup-log.txt
+startup.log
